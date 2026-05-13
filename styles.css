@@ -543,6 +543,69 @@ cite {
   border-color: rgba(255, 164, 0, 0.8);
 }
 
+.media-events-intro {
+  padding: clamp(70px, 9vw, 124px) clamp(24px, 7vw, 180px);
+  color: #fff;
+  background:
+    linear-gradient(90deg, rgba(19, 2, 35, 0.96), rgba(19, 2, 35, 0.76)),
+    url("assets/hero-city.png") center / cover;
+}
+
+.media-events-intro h1 {
+  max-width: 880px;
+  margin-bottom: 20px;
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  line-height: 1;
+}
+
+.media-events-intro p:not(.eyebrow) {
+  max-width: 840px;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 1.08rem;
+}
+
+.notice-section {
+  background: #fff;
+}
+
+.event-notice {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: clamp(34px, 5vw, 64px);
+  border-top: 6px solid var(--orange);
+  background: #f7f3f0;
+  text-align: center;
+}
+
+.notice-label {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: var(--orange);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.event-notice h2 {
+  max-width: 720px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #130223;
+  font-size: clamp(2rem, 3vw, 3.2rem);
+}
+
+.event-notice p {
+  max-width: 640px;
+  margin-right: auto;
+  margin-bottom: 28px;
+  margin-left: auto;
+  color: #4f4757;
+  font-size: 1.08rem;
+}
+
 .site-footer {
   color: #fff;
   background: #000;
