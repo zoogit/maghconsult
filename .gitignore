@@ -1,0 +1,12 @@
+# Local recovery/reference files
+Scans/
+*.docx
+~$*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Netlify local metadata
+.netlify/
